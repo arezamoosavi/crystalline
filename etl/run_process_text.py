@@ -7,7 +7,7 @@ from apache_beam.io import WriteToText
 from apache_beam.options.pipeline_options import PipelineOptions
 
 arg_parser = argparse.ArgumentParser()
-args, beam_args = arg_parser.parse_known_args()
+_, beam_args = arg_parser.parse_known_args()
 beam_options = PipelineOptions(beam_args)
 
 class AppOptions(PipelineOptions):
