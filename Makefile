@@ -13,3 +13,6 @@ run-beam-text:
 run-beam-df:
 	python etl/run_process_dataframe.py --runner=DirectRunner --input_file=resources/sb_utf8.csv --output_file=./output/sb_result_utf8
 	# python etl/run_process_dataframe.py --runner=DirectRunner --input_file=resources/sb_utf16.csv --output_file=./output/sb_result_utf16
+
+run-beam-pd:
+	python etl/run_process_pandas.py --input_file=resources/sb_utf16.csv --output_file=./output/sb_result_utf16
