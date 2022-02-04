@@ -1,7 +1,7 @@
 create-venv:
 	virtualenv .venv --python=python3.7
 install:
-	pip install -r requirement.txt
+	pip install -r requirements.txt
 
 csv-to-utf8:
 	python etl/prepare_csv.py ./resources/sb_utf16.csv ./resources/sb_utf8.csv

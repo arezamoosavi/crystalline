@@ -1,3 +1,4 @@
 apache-beam[all]
 google-cloud-storage
 pandas
+fsspec

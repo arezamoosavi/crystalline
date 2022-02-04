@@ -3,7 +3,6 @@ import pandas as pd
 import apache_beam as beam
 
 from apache_beam.io import WriteToText
-from apache_beam.dataframe import convert
 
 from apache_beam.options.value_provider import RuntimeValueProvider
 from apache_beam.options.pipeline_options import PipelineOptions
